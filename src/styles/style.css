@@ -1,0 +1,51 @@
+.body-style {
+    background-color:powderblue;
+}
+
+.name {
+    text-align: center;
+}
+
+.main-details {
+    display: inline-block;
+    width: 49%;
+}
+
+.picture {
+    width: 49%;
+    float: right;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.title {
+    color: darkblue;
+}
+
+
+.rotate {
+    -webkit-animation: rotation 5.5s infinite linear;
+    animation: rotation 5.5s infinite linear;
+}
+
+.footer-label {
+    font-weight: bolder;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
